@@ -1,0 +1,37 @@
+#one  {
+  font-family: Helvetica;
+  font-size: 80px;
+  color: white;
+  text-align: center;
+  background-color: black;
+  font-style: italic;
+  font-weight: 800;
+}
+body  {
+  background-color: green;
+}
+.two  {
+  text-aligh: center;
+  font-size: 32px;
+}
+h2 {
+  font-family: Helvetica;
+  font-size: 80px;
+  color: white;
+  text-align: center;
+  background-color: black;
+  font-style: italic;
+  font-weight: 800;
+}
+h3 {
+  font-family: Helvetica;
+  font-size: 80px;
+  color: white;
+  text-align: center;
+  background-color: black;
+  font-style: italic;
+  font-weight: 800;
+}
+body {
+  background-color: pink;
+}

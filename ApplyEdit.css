@@ -1,0 +1,82 @@
+nav, footer {
+  background-color: #F5DF4D;
+  margin: 0px;
+  padding: 0px;
+}
+nav a, footer a {
+  display: inline-block;
+  padding: 10px;
+  font-family: fantasy;
+  font-size: 20px;
+  color: #02569B;
+  text-decoration: inherit;
+  font-style: oblique;
+  font-weight: 200;
+}
+nav a:hover, footer a:hover {
+  background-color: #F0EEE9;
+}
+h1 {
+  font-family: fantasy;
+  font-size: 100px;
+  color: #02569B;
+  text-align: center;
+  background-color: #F5DF4D;
+  font-style: oblique;
+  font-weight: 1000;
+}
+.main {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 10px solid #02569B;
+}
+.form {
+  font-family: fantasy;
+  font-size: 40px;
+  color: #02569B;
+  text-align: center;
+  font-style: oblique;
+  font-weight: 400;
+}
+.button {
+  font-family: fantasy;
+  font-size: 40px;
+  color: #02569B;
+  text-align: left;
+  background-color: #F5DF4D;
+  font-style: oblique;
+  font-weight: 400;
+  width: 110px;
+}
+input {
+  font-family: verdana;
+  font-size: 20px;
+  color: #02569B;
+  font-weight: 200;
+  width: 400px;
+  padding: 20px;
+  background-color: #F5DF4D;
+
+}
+textarea {
+  font-family: verdana;
+  font-size: 20px;
+  color: #02569B;
+  font-weight: 200;
+  width: 600px;
+  height: 120px;
+  padding: 20px;
+  margin-bottom: 60px;
+  background-color: #F5DF4D;
+}
+body {
+  background-color: #F0EEE9;
+}
+.c {
+  font-family: verdana;
+  font-size: 20px;
+  color: #02569B;
+  text-align: center;
+  font-weight: 200;
+}

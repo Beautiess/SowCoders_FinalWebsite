@@ -1,0 +1,115 @@
+nav, footer {
+  background-color: #F5DF4D;
+  margin: 0px;
+  padding: 0px;
+}
+nav a, footer a {
+  display: inline-block;
+  padding: 10px;
+  font-family: fantasy;
+  font-size: 20px;
+  color: #92171E;
+  text-decoration: inherit;
+  font-style: oblique;
+  font-weight: 200;
+}
+nav a:hover, footer a:hover {
+  background-color: #F0EEE9;
+}
+h1 {
+  font-family: fantasy;
+  font-size: 100px;
+  color: #92171E;
+  text-align: center;
+  background-color: #F5DF4D;
+  font-style: oblique;
+  font-weight: 1000;
+}
+h2 {
+  font-family: fantasy;
+  font-size: 60px;
+  color: #92171E;
+  text-align: center;
+  font-style: oblique;
+  font-weight: 600;
+}
+.active {
+  font-family: verdana;
+  font-size: 30px;
+  color: #92171E;
+  text-align: center;
+  font-weight: 300;
+}
+ol {
+  font-family: verdana;
+  font-size: 30px;
+  color: #92171E;
+  text-align: left;
+  font-weight: 600;
+  margin-left: 350px;
+}
+.help {
+  font-family: verdana;
+  font-size: 30px;
+  color: #92171E;
+  text-align: left;
+  font-weight: 300;
+}
+.slide {
+  position: relative;
+  overflow: hidden;
+  width: 700px;
+  height: 400px;
+  border: 10px solid #92171E;
+  margin-left: auto;
+  margin-right: auto;
+}
+.slide figure {
+  position: absolute;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 10s slide infinite;
+}
+.slide figure img {
+  float: left;
+}
+@keyframes slide {
+  0% {
+    left: 0%;
+  }
+  20% {
+    left: 0%;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+body {
+  background-color: #F0EEE9;
+}
+.c {
+  font-family: verdana;
+  font-size: 20px;
+  color: #92171E;
+  text-align: center;
+  font-weight: 200;
+}
